@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 @@include('page-blocks/head/head.html',{
   "lang":"ru",
-  "title":"English PDF Materials",
-  "description":"Your best source of English teaching material",
+  "title":"TITLE",
+  "description":"DESCRIPTION",
   "keywords":"",
   "favicon":"img/favicons/favicon",
   })
-<body class="flex flex-col min-h-screen">
-  @@include('page-blocks/header/header.html')
-  <main class="main">
-    
-  </main>
-  @@include('page-blocks/footer/footer.html')
-  @@include('page-blocks/footer/scripts.html')
-</body>
+  <body class="min-h-screen mx-auto bg-orange-400">
+    <div class="flex flex-col min-h-screen">
+      @@include('page-blocks/header/header.html')
+      <main class="bg-zinc-500 grow shrink-0 basis-auto">
+        <div class="container mx-auto">
+          main
+        </div>
+      </main>
+      @@include('page-blocks/footer/footer.html')
+    </div>
+    @@include('page-blocks/footer/scripts.html')
+  </body>
 </html>
