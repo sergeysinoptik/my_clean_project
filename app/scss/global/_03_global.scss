@@ -1,0 +1,70 @@
+/*box-sizing: border-box для всех элементов страницы*/
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/*стили для html и body */
+
+html{
+	font-size: 16px;
+}
+
+html,
+body {
+	min-height: 100%;
+	position: relative;
+}
+
+body{
+	font-size: 1rem;
+}
+
+/*сброс отступов у некоторых блочных элементов*/
+
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:active,
+a:focus,
+input,
+textarea,
+input:active,
+textarea:active,
+:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+textarea {
+  resize: vertical;
+}
+textarea {
+  resize: horizontal;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
